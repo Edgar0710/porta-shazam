@@ -1,5 +1,6 @@
 import React from 'react';
 import LeftCard from './leftCard';
+import ListCanciones from './listCanciones';
 class Container extends React.Component {
     constructor(props) {
         super(props);
@@ -8,6 +9,7 @@ class Container extends React.Component {
       return ( <div className="container mt-2">
             <div className="row" style={{minHeight:'75vh',}}>
                  <LeftCard/>
+                 <ListCanciones/>
             </div>
         </div>);
     }
